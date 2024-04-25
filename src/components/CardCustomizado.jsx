@@ -26,11 +26,13 @@ export default function CardCustomizado(props) {
         <Col lg={6} sm={12}>
           <Card
             style={{
-              background: "linear-gradient(to right, #102E4A 5%, #FFFFFF )",
+              background: "#102E4A", // Cor azul escuro de fundo
+              color: "#FFFFFF", // Cor do texto
               marginTop: "10vh",
               overflow: "hidden",
             }}
           >
+            {/* Aqui você pode inserir a imagem */}
             {props?.img && (
               <>
                 <Card.Img
@@ -63,11 +65,8 @@ export default function CardCustomizado(props) {
             </Card.Body>
           </Card>
         </Col>
-        <Col lg={6} sm={12} className="bg-white text-dark text-black">
-          <h1>Coluna feliz</h1>
-        </Col>
+      
       </Row>
     </Container>
   );
 }
-
