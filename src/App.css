@@ -36,3 +36,150 @@
     transform: rotate(360deg);
   }
 }
+.navbar-text{
+  margin-left: 10px;
+  text-decoration: none;
+  align-items: center;
+}
+.body #principal{
+  background-color: #102E4A;
+  height: 100vh;
+  margin-top: auto;
+
+}
+
+.body .musicas{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color:black;
+}
+
+header{
+  background-color: #102E4A;
+  height: 10vh;
+  z-index: 4;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+
+#footer{
+  color: #ffffff;
+  margin: 0;
+  background-color: #102E4A;
+  height: 25vh;
+}
+
+Nav{
+  font-family: sans;
+  color: #ffffff;
+  font-size: 15px;
+}
+.nav-link.dropdown-toggle {
+  color: #ffffff !important;
+}
+
+.imagemdefundo{
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+
+  #home {
+    color: #FFFFFF;
+    top: 15%;
+    left: 20%;
+    padding: 5px 5px 5px 15px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
+    border: none;
+    background-color: #25d366;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    animation: blinker 4s linear infinite;
+    
+}
+#home a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+
+@keyframes blinker {
+  50% { opacity: 0; }
+}
+
+@media (max-width: 768px){
+  #home{
+    top: 10%;
+    left: 25%;
+    font-size: 10px;
+    padding: 0px 0px 0px 15px;
+  }
+}
+
+body{
+  background-color: #102E4A;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+
+
+/*Time line*/
+
+.swiper {
+  width: 60%;
+  height: 60%;
+ 
+  font-variant-position: initial;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #B18A2E;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding: 10px 10px 10px 10px;
+}
+
+.card-body-sobre{
+  
+  text-align: center;
+  display: flex;
+}
+
+@media (max-width: 768px){
+  .card-body-sobre{
+    display: grid;
+  }
+}
+
+/*Mapa*/
+
+#container {
+  height: 500px; 
+  min-width: 310px; 
+  max-width: 800px; 
+  margin: 0 auto; 
+}
+.loading {
+  margin-top: 10em;
+  text-align: center;
+  color: gray;
+}
